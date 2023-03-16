@@ -3,13 +3,13 @@
     margin: 0px;
 }
 body{
-    background-image: url('webBg.jpg');
+    background-image: url('bgMobile.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 nav{
-    background-color: rgba(18, 123, 215, 0);
+    background-color: rgba(29, 104, 169, 0);
 }
 
 nav ul{
@@ -35,54 +35,33 @@ nav ul{
    font-family: monospace;
 }
 
-.menu{
-   
-    width: 100%;
-    background-color: rgb(48, 141, 222);
-}
-.menu-List{
-    color: aliceblue;
-    align-content: center;
-    padding: 10px;
-    position: relative;
-    cursor: pointer;
-    
-}
-
-.menu-ul{
-    position: relative;
-    text-align: center;
-    display: inline-flex;
-    padding-left: 365px;
-    
-}
-
 .signup{
     display: flex;
     align-items: center;
     height: 40px;
     width: 40px;
     position: absolute;
-    right: 10px;
+    right: 50px;
     top: 10px;
     cursor: pointer;
 }
 
 .HelloText{
-    font-size: 200px;
+    font-size: 120px;
     color: rgb(240, 248, 255);
     padding-left: 50px;
+    margin-top: 50px;
 }
 .avinText{
     color: rgb(240, 248, 255);
-    font-size: 180px;
+    font-size: 120px;
     padding-left: 50px;
     font-weight: bolder;
     
 }
 
 footer{
-    background-color: rgba(0, 17, 255, 0.123);
+    background-color: rgba(0, 15, 227, 0.119);
     position: absolute;
     width: 100%;
     bottom: 0px;
@@ -137,22 +116,34 @@ footer ul li{
     position: absolute;
 }
 #toggle-button{
-    display: none;
+   height: 30px;
+   width: 30px;
+   position: absolute;
+   top: 13px;
+   right: 10px;  
+   
 }
 
-@media only screen and (max-width: 450px) {
+.toggle-menu-items{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (min-width: 450px) {
+   
+   
+   
     *{
         padding: 0px;
         margin: 0px;
     }
     body{
-        background-image: url('bgMobile.jpeg');
+        background-image: url('webBg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
     
     nav{
-        background-color: rgba(29, 104, 169, 0);
+        background-color: rgba(18, 123, 215, 0);
     }
     
     nav ul{
@@ -178,33 +169,54 @@ footer ul li{
        font-family: monospace;
     }
     
+    .menu{
+       
+        width: 100%;
+        background-color: rgb(48, 141, 222);
+    }
+    .menu-List{
+        color: aliceblue;
+        align-content: center;
+        padding: 10px;
+        position: relative;
+        cursor: pointer;
+        
+    }
+    
+    .menu-ul{
+        position: relative;
+        text-align: center;
+        display: inline-flex;
+        padding-left: 365px;
+        
+    }
+    
     .signup{
         display: flex;
         align-items: center;
         height: 40px;
         width: 40px;
         position: absolute;
-        right: 50px;
+        right: 10px;
         top: 10px;
         cursor: pointer;
     }
     
     .HelloText{
-        font-size: 120px;
+        font-size: 200px;
         color: rgb(240, 248, 255);
         padding-left: 50px;
-        margin-top: 50px;
     }
     .avinText{
         color: rgb(240, 248, 255);
-        font-size: 120px;
+        font-size: 180px;
         padding-left: 50px;
         font-weight: bolder;
         
     }
     
     footer{
-        background-color: rgba(0, 15, 227, 0.119);
+        background-color: rgba(0, 17, 255, 0.123);
         position: absolute;
         width: 100%;
         bottom: 0px;
@@ -258,15 +270,8 @@ footer ul li{
        left: 20px;
         position: absolute;
     }
-    #toggle-button{
-       height: 30px;
-       width: 30px;
-       position: absolute;
-       top: 13px;
-       right: 10px;  
+    .toggle-button-class{
+        display: none;
     }
-
-   .toggle-menu-items{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   }
+   
   }
