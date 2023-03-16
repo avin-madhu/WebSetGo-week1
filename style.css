@@ -49,13 +49,13 @@ nav ul{
 .HelloText{
     font-size: 120px;
     color: rgb(240, 248, 255);
-    padding-left: 50px;
+    padding-left: 30px;
     margin-top: 50px;
 }
 .avinText{
     color: rgb(240, 248, 255);
     font-size: 120px;
-    padding-left: 50px;
+    padding-left: 30px;
     font-weight: bolder;
     
 }
@@ -128,7 +128,7 @@ footer ul li{
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 550px) {
    
    
    
