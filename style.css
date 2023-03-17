@@ -267,19 +267,20 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
         justify-content: center;
         display: flex;
         align-items: center;
+
     
         
     }
     
     #Menu-Ul{
-        position: relative;
+        position: absolute;
         text-align: center;
         display: inline-flex;
-        padding-left: 365px;
-        padding: 20px;
         justify-content: center;
         display: flex;
         align-items: center;
+        top: 4px;
+        right: 40%;
         
     }
     
