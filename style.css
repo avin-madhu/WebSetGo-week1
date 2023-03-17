@@ -126,6 +126,8 @@ footer ul li{
    top: 30px;
    left: 20px;
     position: absolute;
+    font-size: smaller;
+    opacity: 50%;
 }
 #toggle-button{
    height: 30px;
@@ -188,10 +190,6 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     right: 8px;
     font-size: 60px;
   }
-
-  #toggle-button{
-      
-  }
   
   @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}
@@ -201,7 +199,6 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     right: 35px;
     }
   }
-
 
  
 @media only screen and (min-width: 550px) {
@@ -347,10 +344,11 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
        top: 30px;
        left: 20px;
         position: absolute;
+        opacity: 50%;
+        padding-bottom: 20px;
     }
     .toggle-button-class{
         display: none;
     }
-
-   
+    
   }
