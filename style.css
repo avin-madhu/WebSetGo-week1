@@ -125,8 +125,8 @@ footer ul li{
    right: 10px;  
    
 }
-.menu-List{
-    color: rgba(240, 248, 255, 0);
+.menu-ul{
+    display: none;
 }
 
 .toggle-menu-items{
@@ -152,12 +152,13 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     }
     
     nav ul{
-       display: flex;
+       /* display: flex; */
        list-style-type: none;
        height: 60px;
        font-weight: bold;
        align-items: center;
        margin-left: 20px;
+       
     }
     
     .logo{
@@ -174,22 +175,22 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
        font-family: monospace;
     }
     
-    .menu{
+    /* .menu{
        
         width: 100%;
         background-color: rgb(48, 141, 222);
-    }
+    } */
     .menu-List{
         color: aliceblue;
         align-content: center;
         padding: 10px;
         position: relative;
         cursor: pointer;
-        display: none;
+        /* display: none; */
         
     }
     
-    .menu-ul{
+    #Menu-Ul{
         position: relative;
         text-align: center;
         display: inline-flex;
