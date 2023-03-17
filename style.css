@@ -126,7 +126,7 @@ footer ul li{
    top: 30px;
    left: 20px;
     position: absolute;
-    font-size: smaller;
+    font-size: 10px;
     opacity: 50%;
 }
 #toggle-button{
