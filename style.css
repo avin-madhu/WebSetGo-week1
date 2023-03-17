@@ -9,7 +9,7 @@ body{
 }
 
 nav{
-    background-color: rgba(92, 169, 29, 0.396);
+    background-color:  rgba(82, 252, 167, 0.119);
 }
 
 nav ul{
@@ -63,7 +63,7 @@ nav ul{
 }
 
 footer{
-    background-color: rgba(0, 15, 227, 0.119);
+    background-color: rgba(82, 252, 167, 0.119);
     position: absolute;
     width: 100%;
     bottom: 0px;
@@ -149,7 +149,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     }
     
     nav{
-        background-color: rgba(18, 123, 215, 0);
+        background-color:  rgba(82, 252, 167, 0.119);
     }
     
     nav ul{
@@ -224,7 +224,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     }
     
     footer{
-        background-color: rgba(0, 17, 255, 0.123);
+        background-color:  rgba(82, 252, 167, 0.119);
         position: absolute;
         width: 100%;
         bottom: 0px;
