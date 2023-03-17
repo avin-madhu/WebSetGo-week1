@@ -49,15 +49,15 @@ nav ul{
 }
 
 .HelloText{
-    font-size: 120px;
+    font-size: 100px;
     color: rgb(240, 248, 255);
-    padding-left: 30px;
+    padding-left: 20px;
     margin-top: 50px;
 }
 .avinText{
     color: rgb(240, 248, 255);
-    font-size: 120px;
-    padding-left: 30px;
+    font-size: 100px;
+    padding-left: 20px;
     font-weight: bolder;
     
 }
@@ -99,14 +99,15 @@ footer ul li{
     align-items: center;
     justify-content: center;
     display: block;
+    position: absolute;
 }
-.icons.github{
+/* .icons.github{
     height: 32px;
     width: 32px;
     position:absolute;
     display: flex;
     top: 37px;
-}
+} */
 
 .followMe{
     color: aliceblue;
