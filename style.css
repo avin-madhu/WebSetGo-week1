@@ -208,6 +208,17 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     margin-top: 20px;
    
   }
+  #Name{
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   top: 30px;
+   right: 20px;
+    position: absolute;
+    font-size: 10px;
+    opacity: 50%;
+  }
 
  
 @media only screen and (min-width: 550px) {
@@ -374,7 +385,6 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
         bottom: 34px;
         position: absolute;
         right:20px;
-
     }
     
   }
